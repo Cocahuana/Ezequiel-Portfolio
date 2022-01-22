@@ -23,6 +23,9 @@ global style
         --inner-shadow-0: inset 0 0 0 #d0d0d0, inset 0 0 0 #f8f8f8;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-size: 16px;
     line-height: 1.5;
@@ -419,7 +422,16 @@ Home section
     border-radius: 50%;
     border: 10px solid transparent;
 }
-
+.saturate-130{
+    filter: saturate(130%);
+}
+.warning{
+    color: red !important;
+    font-size: large;
+}
+.important{
+    color: var(--text-black-300);
+}
 /*-----------
 About section
 -------------*/
